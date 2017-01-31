@@ -14,9 +14,9 @@ namespace C_Sharp_Reference.StringStuff
             //Basic string funtionality
             Console.WriteLine("=> Basic String functionality");
             string firstName = "Dennis";
-            Console.WriteLine("Value From firstName: {0}", firstName)
+            Console.WriteLine("Value From firstName: {0}", firstName);
 
-            Console.WriteLine("fistname has {0} characters", firstName.Length);
+            Console.WriteLine("fistname has {0} characters", firstName.Length)
             Console.WriteLine("firstName in uppercase: {0}", firstName.ToUpper());
             Console.WriteLine("firstName in lowercase: {0}", firstName.ToLower());
             Console.WriteLine("firstName contains the letter s?: {0}", firstName.Contains("s"));
